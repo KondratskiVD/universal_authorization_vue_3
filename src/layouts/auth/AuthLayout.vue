@@ -1,5 +1,5 @@
 <template>
-  <div id="auth_layout">
+  <div id="auth_layout" class="bg-green-100">
     <router-view></router-view>
   </div>
 </template>
@@ -11,7 +11,4 @@ name: "AuthLayout"
 </script>
 
 <style scoped>
-#auth_layout {
-  background: pink;
-}
 </style>
